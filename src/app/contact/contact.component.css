@@ -1,0 +1,74 @@
+/* Réécriture de la règle pour la section "contact" */
+input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 6px 0 40px;
+    resize: vertical;
+}
+    
+#contact{
+    box-sizing : border-box;
+    border-radius:5px;
+    background-color:rgb(202, 202, 202);
+    padding:20px;
+    width: 100%;
+    max-width: 50%;
+    margin:0 auto;
+    text-align: center;
+}
+
+label {
+width: 100%;
+font-size: 1.2rem;
+font-weight:bold;
+text-align: left;
+}
+
+@media (max-width: 650px) {
+
+    #contact{
+        max-width: 90%;
+    }
+    
+}
+
+.btn {
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #FFFFFF;
+    background-color: rgb(3,254,254);
+    border-radius: 10px;
+    border: none;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    width: 250px;
+}
+    
+.btn:hover {
+    background-color: #1f497d;
+    box-shadow: 3px 1px 4px #777777;
+}
+
+
+.alert{
+    left: 33%;
+    position: absolute;
+    width: 35%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+    height: 100px;
+    transform: translateY(-300px);
+}
+    
