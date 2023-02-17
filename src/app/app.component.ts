@@ -54,12 +54,6 @@ export class AppComponent implements OnInit{
         title : "Chronomètre",
         alt: "image de montre",
         text: "HTML/JS"
-      },{
-        imgPath : "assets/img/Chronometre.png",
-        link :"https://github.com/BihanMathieu/JS-Chronom-tre",
-        title : "Portfolio",
-        alt: "image de montre",
-        text: "Angular"
       },
     ]
   }
