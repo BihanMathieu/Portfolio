@@ -23,39 +23,39 @@ export class AppComponent implements OnInit{
   initProjects(){
     this.items= [
       {
-        imgPath : "../assets/img/Blog-felin.png",
+        imgPath : "assets/img/Blog-felin.png",
         link :"https://github.com/BihanMathieu/Blog_felin",
         title : "Blog Félin",
         alt: "image félin",
         text: "HTML/CSS/JS/PHP/SQL "
       },
       {
-        imgPath : "../assets/img/Rocket-launch.png",
+        imgPath : "assets/img/Rocket-launch.png",
         link :"https://github.com/BihanMathieu/JS-Rocket-launch",
         title : "Rocket launch",
         alt: "image fusée",
         text: "CSS/JS"
       },
       {
-        imgPath : "../assets/img/ToDoList.png",
+        imgPath : "assets/img/ToDoList.png",
         link:"https://github.com/BihanMathieu/Java-ToDoList",
         title : "To Do List",
         alt: "image to do list",
         text: "JAVA"
       },{
-        imgPath : "../assets/img/Zombi.png",
+        imgPath : "assets/img/Zombi.png",
         link :"https://github.com/BihanMathieu/JS-Zombie",
         title : "Zombi",
         alt: "image zombi",
         text: "HTML/CSS/JS"
       },{
-        imgPath : "../assets/img/Chronometre.png",
+        imgPath : "assets/img/Chronometre.png",
         link :"https://github.com/BihanMathieu/JS-Chronom-tre",
         title : "Chronomètre",
         alt: "image de montre",
         text: "HTML/JS"
       },{
-        imgPath : "../assets/img/Chronometre.png",
+        imgPath : "assets/img/Chronometre.png",
         link :"https://github.com/BihanMathieu/JS-Chronom-tre",
         title : "Portfolio",
         alt: "image de montre",
