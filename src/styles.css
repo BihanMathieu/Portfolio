@@ -17,7 +17,7 @@ body{
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
     font-size: 1.4em;
-    color: #FFFFFF;
+    color: #FFF;
     background-color: rgba(31, 73, 112, 0.8);
     border-radius: 10px;
     border: none;
@@ -29,7 +29,7 @@ body{
 .btn:hover {
     background-color: rgba(31, 73, 112);
     box-shadow: 3px 1px 4px #777777;
-    color: #f1f1f1;
+    color: #FFF;
     transform: scale(1.1);
 }
 
