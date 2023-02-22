@@ -6,3 +6,51 @@ body{
     font-family: 'Rubik', sans-serif;
     background-color: #f1f1f1;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik&display=swap');
+
+.btn {
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #FFFFFF;
+    background-color: rgba(31, 73, 112, 0.8);
+    border-radius: 10px;
+    border: none;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+    width: 200px;
+}
+    
+.btn:hover {
+    background-color: rgba(31, 73, 112);
+    box-shadow: 3px 1px 4px #777777;
+    color: #f1f1f1;
+    transform: scale(1.1);
+}
+
+h1 {
+text-align: center;
+margin: 100px 0;
+font-size: 2.5rem;
+font-weight: bold;
+font-family: 'Anton', sans-serif;
+letter-spacing: 1.5px;
+}
+
+h1::first-letter {
+    color: #1f497d;
+    font-size: 4rem;
+}
+
+@media (max-width: 650px) {
+
+    h1{
+        margin: 50px 0;
+    }
+    
+}

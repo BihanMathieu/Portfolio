@@ -1,0 +1,38 @@
+.skills {
+    width: 100%;
+    text-align: center;
+    }
+
+#img {
+cursor: pointer;
+margin: auto;
+border: 1px solid black;
+width: 25%;
+
+}
+
+@media (max-width: 1030px) {
+
+    #img{
+        width: 50%;
+    }
+}
+
+@media (max-width: 650px) {
+
+    #img{
+        width: 90%;
+    }
+    
+}
+
+.imgModal{
+    border: 1px solid black;
+    background-image: url("../../assets/img/CV-MATHIEU_BIHAN.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 80vw;
+    height: auto;
+}

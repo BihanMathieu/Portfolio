@@ -1,0 +1,14 @@
+<nav id="header">
+  <label [ngClass]="scrollNav()"for="checkbox" id="label"></label>
+  <input type="checkbox"  id="checkbox"/>
+  <ul [ngClass]="scrollNav()" class="nav-links">
+    <li><a (click)="unchecked()" href="#welcome">Acceuil</a></li>
+    <li><a (click)="unchecked()" href="#about">A propos</a></li>
+    <li><a (click)="unchecked()" href="#skills">Compétences</a></li>
+    <li><a (click)="unchecked()" href="#projects">Projets</a></li>
+    <li><a (click)="unchecked()" href="#contact">Contact</a></li>
+  </ul>
+  <section class="name">
+    <P><Strong>Bihan Mathieu</Strong><br>Développeur Web</P>
+  </section>
+</nav>

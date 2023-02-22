@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref" : "/Portfolio/",
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -67,6 +68,7 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          
           "configurations": {
             "production": {
               "browserTarget": "Portfolio-Mathieu:build:production"

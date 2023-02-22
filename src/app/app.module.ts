@@ -4,8 +4,10 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContactComponent } from './contact/contact.component';
+import { CarouselModule } from './carousel/carousel.module';
 import { ContactModule } from './contact/contact.module';
+import { NavbarModule } from './navbar/navbar.module';
+import { SkillsModule } from './skills/skills.module';
 
 
 
@@ -18,6 +20,9 @@ import { ContactModule } from './contact/contact.module';
     AppRoutingModule,
     NgbCarouselModule,
     ContactModule,
+    CarouselModule,
+    SkillsModule,
+    NavbarModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,18 +1,4 @@
-<nav id="welcome">
-  <label [ngClass]="scrollNav()"for="checkbox" id="label"></label>
-  <input type="checkbox"  id="checkbox"/>
-  <ul [ngClass]="scrollNav()" class="nav-links">
-    <li><a href="#welcome">Acceuil</a></li>
-    <li><a href="#about">A propos</a></li>
-    <li><a href="#skills">Compétences</a></li>
-    <li><a href="#projects">Projets</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <section class="name">
-    <P><Strong>Bihan Mathieu</Strong></P>
-    <p>Développeur Web</p>
-  </section>
-</nav>
+<navbar></navbar>
 
 <section id="about">
     <h1>A propos</h1>
@@ -21,53 +7,26 @@
 Nunc lacus mi, facilisis in ante at, interdum eleifend dui. Cras egestas arcu eget feugiat condimentum. Suspendisse potenti. Suspendisse faucibus, orci quis porta bibendum, felis nulla luctus quam, eu molestie quam nulla eu nulla. Etiam eros quam, iaculis non sagittis at, sodales a elit. Donec tristique sollicitudin libero, quis feugiat diam fermentum quis. Nulla facilisi. Vivamus vitae dolor vel massa elementum tempus. Donec non sollicitudin tellus. Cras ex lectus, mollis at imperdiet quis, ornare quis justo. Phasellus fermentum fringilla condimentum. Sed in ornare nibh. In ligula turpis, sollicitudin tristique sem vitae, sagittis luctus ipsum. Cras sed laoreet mi. Pellentesque nec orci a nisi euismod eleifend. Nullam posuere tempor diam eget aliquam.</p>
 </section>
 
-<section id="skills">
-    <h1>Compétences</h1>
 
-  <img src="assets/img/CV-MATHIEU_BIHAN.jpg" alt="">
-  <br>
-  <a href="assets/img/CV-MATHIEU_BIHAN.jpg" download="CV-MATHIEU_BIHAN.jpg"><button class="btn" type="button">Télécharger CV</button></a>
-</section>
-<section id="projects">
+<h1 id="skills">Compétences</h1>
+<skills></skills>
 
-  <h1>Projet</h1>
-  <div id="carouselExampleCaptions" class="carousel slide my-carousel" data-bs-ride="false">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-    </div>
-    <div class="carousel-inner">
-      <div *ngFor="let item of items; let i = index">
-        <div class="carousel-item" [ngClass]="{'active': i==0}">
-          <a [href]="item.link"><img [src]="item.imgPath" class="d-block w-100" [alt]="item.alt"></a>
-          <div class="carousel-caption d-md-block">
-            <h5>{{item.title}}</h5>
-            <p>{{item.text}}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev color" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon color" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
+<h1 id="projects">Projets</h1>
+<carousel></carousel>
 
-<h1>Contact</h1>
+<h1 id="contact">Contact</h1>
 <contact></contact>
 
 <footer>
   <section class="reseau">
-    <a href="https://www.linkedin.com/in/mathieu-bihan-570516185/"><img src="assets/img/logo-linkedin.png" alt="logo linkedin"></a>
-    <a href="https://github.com/BihanMathieu?tab=repositories"><img src="assets/img/signe-github.png" alt="logo github"></a>
+    <div class="icon">
+      <a href="https://www.linkedin.com/in/mathieu-bihan-570516185/"><img src="assets/img/linkedin-logo.png" alt="logo linkedin"></a>
+      <p>Mon linkedin</p>
+    </div>
+    <div class="icon">
+      <a href="https://github.com/BihanMathieu?tab=repositories"><img src="assets/img/signe-github.png" alt="logo github"></a>
+      <p>Mon github</p>
+    </div>
   </section>
-  <p>© Copyright 2022 - Bihan MAthieu. Tous droits réservés.</p>
+  <p class="copyright">© Copyright 2022 - Bihan Mathieu. Tous droits réservés.</p>
 </footer>
