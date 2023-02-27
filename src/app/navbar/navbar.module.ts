@@ -1,8 +1,5 @@
 import { CommonModule } from '@angular/common';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
-import { NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
-
-
 import { NavbarComponent } from './navbar.component';
 
 @NgModule({
@@ -13,7 +10,6 @@ import { NavbarComponent } from './navbar.component';
     NavbarComponent,
   ],
   imports: [
-    NgbAlertModule,
     CommonModule
   ],
   providers: [],

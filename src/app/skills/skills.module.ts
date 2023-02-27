@@ -1,8 +1,4 @@
-import { CommonModule } from '@angular/common';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
-import { NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
-
-
 import { SkillsComponent } from './skills.component';
 
 @NgModule({
@@ -12,10 +8,7 @@ import { SkillsComponent } from './skills.component';
   exports:[
     SkillsComponent,
   ],
-  imports: [
-    NgbAlertModule,
-    CommonModule
-  ],
+  imports: [],
   providers: [],
   bootstrap: [],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],

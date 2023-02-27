@@ -2,6 +2,9 @@
     width: 100%;
     text-align: center;
     }
+.skills a:focus-visible{
+    background-color: #bc1a1a;
+}
 
 #img {
 cursor: pointer;
