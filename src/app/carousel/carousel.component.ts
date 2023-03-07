@@ -53,6 +53,12 @@ export class CarouselComponent implements OnInit{
         title : "Chronomètre",
         alt: "image de montre",
         text: "HTML/JS"
+      },{
+        imgPath : "assets/img/Puissance4.svg.png",
+        link :"https://github.com/BihanMathieu/JS-Puissance4",
+        title : "Puissance4",
+        alt: "image de puissance 4",
+        text: "HTML/CSS/JS"
       },
     ]
   }
