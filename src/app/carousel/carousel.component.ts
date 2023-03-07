@@ -54,7 +54,7 @@ export class CarouselComponent implements OnInit{
         alt: "image de montre",
         text: "HTML/JS"
       },{
-        imgPath : "assets/img/Puissance4.svg.png",
+        imgPath : "assets/img/puissance4.png",
         link :"https://github.com/BihanMathieu/JS-Puissance4",
         title : "Puissance4",
         alt: "image de puissance 4",
@@ -78,7 +78,7 @@ export class CarouselComponent implements OnInit{
     console.log(scrollPosition);
 
     carouselNext!.addEventListener("click", function () {
-      if (scrollPosition < carouselWidth - cardWidth! * 4) {
+      if (scrollPosition < carouselWidth - cardWidth! * 3) {
         console.log("next");
         scrollPosition += cardWidth!;
         carouselInner!.scrollLeft = scrollPosition;
