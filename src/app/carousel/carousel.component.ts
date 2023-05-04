@@ -59,7 +59,13 @@ export class CarouselComponent implements OnInit{
         title : "Puissance4",
         alt: "image de puissance 4",
         text: "HTML/CSS/JS"
-      },
+      },{
+        imgPath : "assets/img/weather.png",
+        link :"https://github.com/BihanMathieu/JS_weather-app",
+        title : "Weather_app",
+        alt: "image d'un homme sous la pluie",
+        text: "HTML/CSS/JS"
+      }
     ]
   }
 
